@@ -1,3 +1,3 @@
 # Memory Game
 
-This is a simply memory game created using React and Vite.
+This is a simple memory game created using React and Vite.
