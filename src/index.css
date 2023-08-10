@@ -26,9 +26,40 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  place-items: center;
   justify-content: center;
   min-width: 320px;
   min-height: 100vh;
   background-color: #242424;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+.scoreBoard {
+  display: flex;
+  justify-content: space-around;
+  min-width: 500px;
+  font-size: 1.3rem;
+}
+
+.github {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.github > a > img {
+  margin-right: 10px;
+  max-width: 45px;
+  max-height: 45px;
+  margin-top: 3px;
+}
+
+.github > a {
+  color: white;
+}
+
+.github > a:hover{
+  color: lightblue;
 }

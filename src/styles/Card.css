@@ -5,12 +5,13 @@
 }
 
 .cardContainer > img {
-    width: 300px;
+    width: 280px;
     aspect-ratio: 1;
     object-fit: cover;
     border-radius: 10px;
     margin: -5px;
     filter: brightness(0.95);
+    border: 2px solid dimgray;
 }
 
 
@@ -21,6 +22,7 @@
     transition: 0.2s;
     cursor: pointer;
     filter: brightness(1.1);
+    border: 2px solid lightblue;
 }
 
 @keyframes bounce {
@@ -30,4 +32,23 @@
     to {
         translate: 0px 10px;
     }
+}
+
+@keyframes move-fade {
+    0% {
+        translate: 0px 0px;
+        opacity: 100%;
+    }
+    100% {
+        translate: 0px -50px;
+        opacity: 0;
+    }
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
 }

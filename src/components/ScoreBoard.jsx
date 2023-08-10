@@ -3,9 +3,9 @@ import { useState } from 'react'
 function ScoreBoard(props) {
 
   return (
-    <div>
-        <h2>Score</h2>
-        <h2>Highest Score</h2>
+    <div className='scoreBoard'>
+        <div><h2>Current Score: {props.score}</h2></div>
+        <div><h2>Best Score: {props.highestScore}</h2></div>
     </div>
   )
 }
