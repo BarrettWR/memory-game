@@ -12,7 +12,6 @@ function App() {
   
 
   useEffect(() => {
-    {console.log("setting cats to new json data from api")}
     getCats().then(data => setCats(data));
   }, []);
 
@@ -27,7 +26,6 @@ function App() {
       {cats.length > 0 && (
         <div className='gameContainer'>
           <>
-            {console.log("creating cards")}
             {cats.map(cat => (
               <Card 
                 url= {cat.url} 
